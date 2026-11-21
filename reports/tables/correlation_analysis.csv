@@ -1,0 +1,28 @@
+device,precision_scope,sample_size_N,independent_metric,dependent_metric,comparison_label,spearman_rho,spearman_pvalue,kendall_tau,kendall_pvalue,statistical_note
+M2102J20SG,FP32,5,flops,median_latency_ms,FLOPs vs Median Latency,1.0,0.0,1.0,0.0167,Single precision tier (FP32); N = unique architectures
+M2102J20SG,FP32,5,parameter_count,median_latency_ms,Parameters vs Median Latency,0.4,0.5046,0.4,0.4833,Single precision tier (FP32); N = unique architectures
+M2102J20SG,FP32,5,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.4,0.5046,0.4,0.4833,Single precision tier (FP32); N = unique architectures
+M2102J20SG,FP16,5,flops,median_latency_ms,FLOPs vs Median Latency,0.9,0.0374,0.8,0.0833,Single precision tier (FP16); N = unique architectures
+M2102J20SG,FP16,5,parameter_count,median_latency_ms,Parameters vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (FP16); N = unique architectures
+M2102J20SG,FP16,5,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (FP16); N = unique architectures
+M2102J20SG,INT8,5,flops,median_latency_ms,FLOPs vs Median Latency,0.6,0.2848,0.4,0.4833,Single precision tier (INT8); N = unique architectures
+M2102J20SG,INT8,5,parameter_count,median_latency_ms,Parameters vs Median Latency,0.8,0.1041,0.6,0.2333,Single precision tier (INT8); N = unique architectures
+M2102J20SG,INT8,5,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.9,0.0374,0.8,0.0833,Single precision tier (INT8); N = unique architectures
+M2102J20SG,ALL_POOLED,15,flops,median_latency_ms,FLOPs vs Median Latency,0.7419,0.0015,0.6172,0.0024,Pooled precision variants (Exploratory; note architectural auto-correlation)
+M2102J20SG,ALL_POOLED,15,parameter_count,median_latency_ms,Parameters vs Median Latency,0.5019,0.0566,0.3909,0.0543,Pooled precision variants (Exploratory; note architectural auto-correlation)
+M2102J20SG,ALL_POOLED,15,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.6714,0.0061,0.5429,0.0041,Pooled precision variants (Exploratory; note architectural auto-correlation)
+M2102J20SG,ALL_POOLED,15,flops,peak_sampled_pss_mb,FLOPs vs Peak Sampled PSS,,,,,Pooled precision variants (Exploratory; note architectural auto-correlation)
+M2102J20SG,ALL_POOLED,15,parameter_count,peak_sampled_pss_mb,Parameters vs Peak Sampled PSS,,,,,Pooled precision variants (Exploratory; note architectural auto-correlation)
+M2102J20SG,ALL_POOLED,15,model_size_mb,peak_sampled_pss_mb,Model Size vs Peak Sampled PSS,,,,,Pooled precision variants (Exploratory; note architectural auto-correlation)
+RMX5303,FP32,5,flops,median_latency_ms,FLOPs vs Median Latency,0.9,0.0374,0.8,0.0833,Single precision tier (FP32); N = unique architectures
+RMX5303,FP32,5,parameter_count,median_latency_ms,Parameters vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (FP32); N = unique architectures
+RMX5303,FP32,5,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (FP32); N = unique architectures
+RMX5303,FP16,5,flops,median_latency_ms,FLOPs vs Median Latency,0.9,0.0374,0.8,0.0833,Single precision tier (FP16); N = unique architectures
+RMX5303,FP16,5,parameter_count,median_latency_ms,Parameters vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (FP16); N = unique architectures
+RMX5303,FP16,5,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (FP16); N = unique architectures
+RMX5303,INT8,5,flops,median_latency_ms,FLOPs vs Median Latency,0.7,0.1881,0.6,0.2333,Single precision tier (INT8); N = unique architectures
+RMX5303,INT8,5,parameter_count,median_latency_ms,Parameters vs Median Latency,0.9,0.0374,0.8,0.0833,Single precision tier (INT8); N = unique architectures
+RMX5303,INT8,5,model_size_mb,median_latency_ms,Model Size vs Median Latency,1.0,0.0,1.0,0.0167,Single precision tier (INT8); N = unique architectures
+RMX5303,ALL_POOLED,15,flops,median_latency_ms,FLOPs vs Median Latency,0.731,0.002,0.5966,0.0033,Pooled precision variants (Exploratory; note architectural auto-correlation)
+RMX5303,ALL_POOLED,15,parameter_count,median_latency_ms,Parameters vs Median Latency,0.6656,0.0068,0.5349,0.0085,Pooled precision variants (Exploratory; note architectural auto-correlation)
+RMX5303,ALL_POOLED,15,model_size_mb,median_latency_ms,Model Size vs Median Latency,0.7214,0.0024,0.5619,0.0029,Pooled precision variants (Exploratory; note architectural auto-correlation)

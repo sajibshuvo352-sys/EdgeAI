@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Edge AI Benchmark</string>
+    <string name="title_model_selection">Model Architecture</string>
+    <string name="title_precision_selection">Precision Format</string>
+    <string name="title_threads">CPU Threads</string>
+    <string name="title_runs">Measured Iterations</string>
+    <string name="btn_run_single">Benchmark Selected Model</string>
+    <string name="btn_run_all">Run Full Benchmark Matrix</string>
+    <string name="btn_export_csv">Export Results (CSV/JSON)</string>
+    <string name="status_ready">Ready for execution</string>
+    <string name="status_running">Benchmarking in progress...</string>
+    <string name="device_info_title">Hardware Testbed Telemetry</string>
+</resources>

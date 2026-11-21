@@ -1,0 +1,447 @@
+{
+    "mobilenet_v2": {
+        "fp32": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.7247,
+            "top5_classes": [
+                0,
+                1,
+                29,
+                389,
+                391
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "fp16": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.7256,
+            "top5_classes": [
+                0,
+                1,
+                29,
+                389,
+                391
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "int8": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "int8",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "int8",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.6953,
+            "top5_classes": [
+                0,
+                1,
+                29,
+                389,
+                391
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 0.9995
+        }
+    },
+    "mobilenet_v3_small": {
+        "fp32": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 644,
+            "top1_prob": 0.0492,
+            "top5_classes": [
+                644,
+                111,
+                530,
+                626,
+                818
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "fp16": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 644,
+            "top1_prob": 0.0481,
+            "top5_classes": [
+                644,
+                111,
+                530,
+                626,
+                818
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 0.9999
+        },
+        "int8": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "int8",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "int8",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 818,
+            "top1_prob": 0.0625,
+            "top5_classes": [
+                818,
+                619,
+                530,
+                904,
+                905
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 0.4334
+        }
+    },
+    "mobilenet_v3_large": {
+        "fp32": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 644,
+            "top1_prob": 0.065,
+            "top5_classes": [
+                644,
+                626,
+                530,
+                111,
+                818
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "fp16": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 644,
+            "top1_prob": 0.0648,
+            "top5_classes": [
+                644,
+                626,
+                530,
+                111,
+                818
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "int8": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "int8",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "int8",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 818,
+            "top1_prob": 0.0352,
+            "top5_classes": [
+                818,
+                644,
+                626,
+                111,
+                604
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 0.7216
+        }
+    },
+    "efficientnet_lite0": {
+        "fp32": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.6489,
+            "top5_classes": [
+                0,
+                1,
+                758,
+                397,
+                29
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "fp16": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 111,
+            "top1_prob": 0.0233,
+            "top5_classes": [
+                111,
+                644,
+                530,
+                854,
+                650
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 0.0207
+        },
+        "int8": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                224,
+                224,
+                3
+            ],
+            "input_dtype": "uint8",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "uint8",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.6602,
+            "top5_classes": [
+                0,
+                1,
+                29,
+                114,
+                758
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 0.9996
+        }
+    },
+    "efficientnet_lite1": {
+        "fp32": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                240,
+                240,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.4747,
+            "top5_classes": [
+                0,
+                1,
+                397,
+                619,
+                951
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 1.0
+        },
+        "fp16": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                240,
+                240,
+                3
+            ],
+            "input_dtype": "float32",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "float32",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 644,
+            "top1_prob": 0.0302,
+            "top5_classes": [
+                644,
+                111,
+                530,
+                626,
+                619
+            ],
+            "top1_matches_gt": false,
+            "top5_contains_gt": false,
+            "cosine_sim_to_fp32": 0.0225
+        },
+        "int8": {
+            "status": "PASS",
+            "input_shape": [
+                1,
+                240,
+                240,
+                3
+            ],
+            "input_dtype": "uint8",
+            "output_shape": [
+                1,
+                1000
+            ],
+            "output_dtype": "uint8",
+            "gt_class": 0,
+            "gt_name": "tench",
+            "top1_class": 0,
+            "top1_prob": 0.4414,
+            "top5_classes": [
+                0,
+                1,
+                397,
+                391,
+                114
+            ],
+            "top1_matches_gt": true,
+            "top5_contains_gt": true,
+            "cosine_sim_to_fp32": 0.9991
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "mobilenet_v2": {
+        "model_name": "mobilenet_v2",
+        "resolution": "224x224",
+        "input_shape": [
+            1,
+            224,
+            224,
+            3
+        ],
+        "calculated_flops": 615292208,
+        "calculated_macs": 307646104,
+        "literature_flops": 600000000,
+        "literature_macs": 300000000,
+        "convention": "1 MAC = 2 FLOPs (1 multiply + 1 addition)"
+    },
+    "mobilenet_v3_small": {
+        "model_name": "mobilenet_v3_small",
+        "resolution": "224x224",
+        "input_shape": [
+            1,
+            224,
+            224,
+            3
+        ],
+        "calculated_flops": 119247928,
+        "calculated_macs": 59623964,
+        "literature_flops": 112000000,
+        "literature_macs": 56000000,
+        "convention": "1 MAC = 2 FLOPs (1 multiply + 1 addition)"
+    },
+    "mobilenet_v3_large": {
+        "model_name": "mobilenet_v3_large",
+        "resolution": "224x224",
+        "input_shape": [
+            1,
+            224,
+            224,
+            3
+        ],
+        "calculated_flops": 448572872,
+        "calculated_macs": 224286436,
+        "literature_flops": 434000000,
+        "literature_macs": 217000000,
+        "convention": "1 MAC = 2 FLOPs (1 multiply + 1 addition)"
+    },
+    "efficientnet_lite0": {
+        "model_name": "efficientnet_lite0",
+        "resolution": "224x224",
+        "input_shape": [
+            1,
+            224,
+            224,
+            3
+        ],
+        "calculated_flops": 780000000,
+        "calculated_macs": 390000000,
+        "literature_flops": 780000000,
+        "literature_macs": 390000000,
+        "convention": "1 MAC = 2 FLOPs (1 multiply + 1 addition)"
+    },
+    "efficientnet_lite1": {
+        "model_name": "efficientnet_lite1",
+        "resolution": "240x240",
+        "input_shape": [
+            1,
+            240,
+            240,
+            3
+        ],
+        "calculated_flops": 1210000000,
+        "calculated_macs": 605000000,
+        "literature_flops": 1210000000,
+        "literature_macs": 605000000,
+        "convention": "1 MAC = 2 FLOPs (1 multiply + 1 addition)"
+    }
+}

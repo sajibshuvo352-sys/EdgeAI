@@ -1,0 +1,37 @@
+{
+    "mobilenet_v2": {
+        "architecture": "MobileNetV2",
+        "trainable_parameters": 3504872,
+        "non_trainable_parameters": 34112,
+        "total_parameters": 3538984,
+        "tflite_parameter_count": 12520882
+    },
+    "mobilenet_v3_small": {
+        "architecture": "MobileNetV3-Small",
+        "trainable_parameters": 2542856,
+        "non_trainable_parameters": 12112,
+        "total_parameters": 2554968,
+        "tflite_parameter_count": 6164796
+    },
+    "mobilenet_v3_large": {
+        "architecture": "MobileNetV3-Large",
+        "trainable_parameters": 5483032,
+        "non_trainable_parameters": 24400,
+        "total_parameters": 5507432,
+        "tflite_parameter_count": 14336604
+    },
+    "efficientnet_lite0": {
+        "architecture": "EfficientNet-Lite0",
+        "trainable_parameters": 4652008,
+        "non_trainable_parameters": 44544,
+        "total_parameters": 4696552,
+        "tflite_parameter_count": 11582370
+    },
+    "efficientnet_lite1": {
+        "architecture": "EfficientNet-Lite1",
+        "trainable_parameters": 5416616,
+        "non_trainable_parameters": 48384,
+        "total_parameters": 5465000,
+        "tflite_parameter_count": 15959090
+    }
+}
